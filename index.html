@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATHOGOVOX</title>
+    <link rel="icon" href="./img/logo.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="./">
+                <img style="width: 100px;" src="./img/logo.jpeg" alt="LOGO DE LA BANDA">
+            </a>
+        </div>
+        <div class="header__nav">
+            <nav>
+                <ul class="header__list">
+                    <li><a class="header__item" href="../index.html">INICIO</a></li>
+                    <li><a class="header__item" href="./vistas/banda.html">BANDA</a></li>
+                    <li><a class="header__item" href="./vistas/discografia.html">DISCOGRAFIA</a></li>
+                    <li><a class="header__item" href="./vistas/shows.html">SHOWS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" data-aos="zoom-out" data-aos="fade-up"
+        data-aos-duration="3000">
+            <img style="width: 450px;" src="./img/logomathogo.jpeg" alt="#">
+            <div class="hero_contenedor">
+                <p>Banda de Hard Rock y Funk, de Córdoba Capital, Argentina. Nacida en junio de 2016. Fusionamos
+                    estilos, apostando.</p>
+
+            </div>
+        </section>
+        <section class="info"></section>
+    </main>
+    <section>
+        <h1>Integrantes</h1>
+        <div class="integrantes_conteiner">
+            <div class="integrantes" data-aos="zoom-in" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img style="width: 150px;" src="./img/Mica.jpeg" alt="Mica">
+                <P><a class="nombres_de" href="./vistas/banda.html">Micael - Bajo</a></P>
+            </div>
+            <div class="integrantes" data-aos="zoom-in" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img style="width: 150px; height: 150px;" src="./img/Macaa.jpeg" alt="Maca">
+                <p><a class="nombres_de" href="./vistas/banda.html">Maca - Voz</a></p>
+            </div>
+            <div class="integrantes" data-aos="zoom-in" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img style="width: 150px;" src="./img/Fran.jpeg" alt="Fran">
+                <p><a class="nombres_de" href="./vistas/banda.html">Fran - Guitarra</a></p>
+            </div>
+            <div class="integrantes" data-aos="zoom-in" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img style="width: 150px;" src="./img/Franco.jpeg" alt="Franco">
+                <p><a class="nombres_de" href="./vistas/banda.html">Franco - Bateria</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="section_video">
+        <h2>ULTIMO VIDEO!</h2>
+        <div class="video_inicio">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DuIHhKKoNps"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <div class="suscribir_conteiner">
+        <form class="form_suscribir" action="#" enctype="text/plain" method="get">
+            <div>
+                <input type="email" name="email" id="email" placeholder="Correo electronico">
+            </div>
+            <button type="submit">Suscribirme</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <h1 class="redes_titulo"> Redes sociales</h1>
+        <div class="redes_conteiner">
+            <nav class="redes__nav">
+                <a class="redes_sociales" target="_blank" href="https://www.instagram.com/mathogovox/"><img
+                        style="width: 30px;" src="./img/logoinsta.jpeg" alt="instagram"> </a>
+                <a class="redes_sociales" target="_blank"
+                    href="https://open.spotify.com/artist/1VpM7qx4KNNOZ1PTjhflsT?utm_medium=share&utm_source=linktree"><img
+                        style="width: 30px;" src="./img/logospotify.jpeg" alt="#"></a>
+                <a class="redes_sociales" target="_blank"
+                    href="https://www.youtube.com/channel/UCBI4mP_LiigETeCaC8FdXww"> <img style="width: 70px;"
+                        src="./img/logoyoutube.jpeg" alt="#"></a>
+                <a class="redes_sociales" target="_blank" href="https://www.facebook.com/search/top?q=mathogo%20vox">
+                    <img style="width: 30px;" src="./img/logoface.jpeg" alt="#"></a>
+
+            </nav>
+        </div>
+    </footer>
+    <script>
+        AOS.init(
+            {
+                once: false
+            }
+        );
+      </script>
+</body>
+
+</html>
