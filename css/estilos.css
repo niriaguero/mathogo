@@ -228,6 +228,9 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
+.imag_album{
+    width: 350px;
+}
 .titulo_h3_sencillo{
     color: white;
     background-color: red;
@@ -290,6 +293,9 @@ margin: 1rem;
 }
 .foto__show{
     margin: 2rem;
+}
+.imag_show{
+    width: 350px;
 }
 .vivo_videos{
     display: flex;
@@ -378,5 +384,25 @@ margin: 1rem;
     }
     .informacion_general{
         font-size: 15px;
+    }
+    .imag_album{
+        width: 150px;
+    }
+    ol li{
+        font-size: 15px;
+        padding: 0%;
+    }
+    .titulo_sencillo{
+        font-size: 15px;
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .imag_show{
+        width: 200px;
+    }
+    .texto_fecha{
+        font-size: 17px;
     }
 }
