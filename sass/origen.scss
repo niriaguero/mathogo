@@ -1,5 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./parciales/_variables";
+@import "./parciales/reset";
+@import "./parciales/header";
+@import "./parciales/main";
+@import "./parciales/section";
+@import "./parciales/footer";
+@import "./parciales/mediaquerys";
