@@ -235,6 +235,13 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
+.titulo_h3{
+    color: white;
+    text-align: center;
+}
+.imag_album{
+    width: 350px;
+}
 .titulo_h3_sencillo{
     color: rgb(214, 28, 28);
     background-image: var(--bs-gradient);
@@ -281,6 +288,9 @@ margin: 1rem;
     justify-content: space-evenly;
     margin: 1rem;
     padding: 1rem;
+}
+.foto_banner{
+    width: 350px;
 }
 .texto_fecha{
     color: white;
