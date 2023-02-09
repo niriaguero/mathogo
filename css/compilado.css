@@ -4,129 +4,61 @@
   box-sizing: border-box; }
 
 /* media queries (estilos moviles) */
+@media screen and (max-width: 768px) {
+  .hero {
+    text-align: center; }
+  .header__list {
+    display: flex; }
+  .informacion_general {
+    font-size: 17px; }
+  .fotos_de p {
+    font-size: 17px; }
+  .texto_fecha {
+    font-size: 20px; }
+  .integrantes_conteiner {
+    display: flex; } }
 
-@media screen and (max-width: 768px){
-  .hero{
-      text-align: center;
-  }
-  .header__list{
-      display: flex;
-  }
-  .informacion_general{
-      font-size: 17px;
-  }
-  .fotos_de p{
-      font-size: 17px;
-  }
-  .texto_fecha{
-      font-size: 20px;
-  }
-  .integrantes_conteiner{
-      display: flex;
-  }
-}
-@media screen and (max-width: 426px){
-  .integrantes_conteiner{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-  .hero_contenedor p{
-      font-size: 15px;
-  }
-  .header__list{
-      font-size: 17px;
-  }
-  .video_inicio{
-      width: 200px;
-      display: flex;
-      justify-content: center
-  }
-  .imag_principal{
-      width: 250px;
-  }
-  .imag_logo{
-      width: 50px;
-  }
-  .imag_banda{
-      width: 300px;
-      overflow: hidden;
-  }
-  .imag_banda p{
-      font-size: 15px;
-  }
-  .fotos_contenedor{
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-  }
-  .fotos_contenedor2{
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-  }
-  .imag_micael{
-      width: 200px;
-      overflow: hidden;
-      margin: 0px;
-  }
-  .imag_macarena{
-      width: 200px;
-      overflow: hidden;
-      margin: 0px;
-  }  
-  .imag_fran{
-      width: 200px;
-      overflow: hidden;
-      margin: 0px;
-  }
-  .imag_franco{
-      width: 200px;
-      overflow: hidden;
-      margin: 0px;
-  }
-  .informacion_general{
-      font-size: 13px;
-      overflow: hidden;
-  }
-  .imag_album{
-      width: 175px;
-  }
-  ol li{
-      
-      margin: 5px;
-      padding: 5px;
-      font-size: 15px;
-      font-style: italic;
-  }
-  .sencillo_{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      overflow: hidden;
-  }
-  .titulo_sencillo{
-      font-size: 15px;
-      text-align: center;
-  }
-  .sencillo_misil{
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-  }
-  h1{
-      font-size: 25px;
-  }
-  .foto_banner{
-      width: 150px;
-      margin: 0px;
-  }
-  .texto_fecha{
-      font-size: 15px;
-      margin: 0px;
-  }
-  .titulo-de-show{
-      font-size: 25px;
-  }
-}
+@media screen and (max-width: 426px) {
+  .integrantes_conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .hero_contenedor p {
+    font-size: 15px; }
+  .header__list {
+    font-size: 17px; }
+  .video_inicio {
+    width: 200px;
+    display: flex;
+    justify-content: center; }
+  .imag_principal {
+    width: 250px; }
+  .imag_logo {
+    width: 50px; }
+  .imag_banda {
+    width: 350px; }
+  .imag_micael {
+    width: 150px; }
+  .imag_macarena {
+    width: 150px; }
+  .imag_fran {
+    width: 175px; }
+  .imag_franco {
+    width: 150px; }
+  .informacion_general {
+    font-size: 15px; }
+  .imag_album {
+    width: 150px; }
+  ol li {
+    font-size: 15px;
+    padding: 0%; }
+  .titulo_sencillo {
+    font-size: 15px;
+    text-align: center; }
+  h1 {
+    font-size: 30px; }
+  .imag_show {
+    width: 200px; }
+  .texto_fecha {
+    font-size: 17px; } }
