@@ -1,0 +1,30 @@
+.section_video{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: var(--bs-gradient);
+}
+.suscribir_conteiner{
+    margin: 1rem 2rem;
+}
+.form_suscribir{
+    display: flex;
+    justify-content: center;   
+}
+.form_suscribir button{
+    margin-left: 1rem;
+    padding: 4px;
+    background-color: rgb(206, 15, 15);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+.form_suscribir input{
+    padding: 4px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
